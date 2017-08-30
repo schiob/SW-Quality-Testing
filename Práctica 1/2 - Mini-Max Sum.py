@@ -8,7 +8,7 @@ import sys
 arr = list(map(int, input().strip().split(' ')))
 # Se guardan las sumas mínimas y máximas respectivamente.
 max_sum = 0
-# En el caso de la mínima se usa un número por default más alto que 5 veces el constraint de cada número (5x10^9).
+# En el caso de la mínima se usa un número por default más alto que 4 veces el constraint de cada número (4x10^9).
 min_sum = 999999999999999999999999999
 for number in arr:
 	# Para cada número de la lista:
